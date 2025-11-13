@@ -8,6 +8,7 @@ const rl = readline.createInterface({
 
 //cuando hacemos esto en consola, las condicionales deben ir dentro del rl.question
 rl.question("Escribe tu calificacion\n", (input) => {
+    //let es la forma de declarar variables en javascript
     let numero = Number(input);
     console.log(Number(numero));
 
